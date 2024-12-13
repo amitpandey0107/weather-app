@@ -1,0 +1,221 @@
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherBox {
+    background-color: rgba(74, 48, 122, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.cityWrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cityWrap .sunLogo {
+    margin-right: 20px;
+}
+
+.cityWrap .sunLogo img {
+    height: 80px;
+}
+
+.cityWrap .city {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cityWrap .city h2 {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.cityWrap .city h5 {
+    font-weight: 300;
+    font-size: 16px;
+}
+.tempBox {
+    position: relative;
+    margin-bottom: 40px;
+}
+.tempBox .top{
+    position: relative;
+}
+.tempBox .top .temp{
+    font-weight: 400;
+    font-size: 148px;
+    color: white;
+    line-height: 148px;
+}
+.tempBox .top .unit{
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.tempBox .bottom{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.infoRow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.infoRow .left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.infoRow .left::after{
+    content: '';
+    height: 18px;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.infoRow span {
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+}
+.infoRow .left span:last-child {
+    margin-right: 0;
+}
+.infoRow .right span:last-child {
+    margin-right: 0;
+}
+.infoRow .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addMore {
+    background-color: rgba(74, 48, 122, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addMore .middle {   
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.addMore .middle .btnPlus {
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+.addMore .middle .btnPlus img {
+    height: 75px;
+    display: inline-block;
+}
+.addMore .middle h6 {
+    margin-top: 15px;
+    color: white;
+}
+.modal-content{
+    height: 300px;
+    padding: 25px;
+    background-color: #8A8AE8;
+    border: 0;
+}
+
+.modelContent {
+    position: relative;
+}
+
+.modelContent  h2 {
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 28px;
+}
+.formControl {
+    margin-bottom: 20px;
+}
+.formControl label {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.formControl input {
+    height: 45px;
+    width: 100%;
+    padding: 0 15px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+}
+.formControl button, 
+.formControl input[type="submit"] {
+    outline: none;
+    text-decoration: none;
+    background-color: gold;
+    border: 1px solid gold;
+    color: black;
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+}
+.btnClose {
+    background-color: white;
+    border-radius: 50%;
+    border: 0;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnClose img {
+    display: inline-block;
+    height: 24px;
+}

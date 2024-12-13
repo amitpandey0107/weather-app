@@ -1,0 +1,51 @@
+
+.main {
+    background-image: linear-gradient(to right top, #6292e9, #628ae9, #6582e7, #6979e5, #6f6fe2);
+    height: 100vh;
+    width: 100%;
+}
+
+/* HEADER */
+.header {
+    background-image: linear-gradient(to right, #705ba8, #8978b9, #a396ca, #beb5da, #d9d4ea, #ddd8ef, #e0dcf5, #e4e0fa, #cfcaf6, #bab4f1, #a39fed, #8a8ae8);
+    height: 60px;
+    
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 60px;
+}
+.header img {
+    height: 45px;
+    margin-right: 20px;
+}
+.header span {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+}
+.nav {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav ul li a {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.nav ul li {
+    margin-left: 20px;
+    list-style-type:none;
+}
